@@ -30,13 +30,13 @@ The variables are described into the raw data' files:
 ## Data Transformations Steps
 0. The script provides code for download and unzip the original data. This code are commented. You could uncommented to get the data if necessary.
 1. Merges the training and the tests sets to create on data set.
-    a. Reading the activities names.
-    b. Reading the features names.
-    c. Reading the activities file for train and test data.
-    d. Reading the subtject files for train and test data.
-    e. Reading the experiment data files for train and test data.
-    f. Merging the activity, subject and data files for train and test data.
-    g. Merging the data for train and test data.
+    >a. Reading the activities names.
+    >b. Reading the features names.
+    >c. Reading the activities file for train and test data.
+    >d. Reading the subtject files for train and test data.
+    >e. Reading the experiment data files for train and test data.
+    >f. Merging the activity, subject and data files for train and test data.
+    >g. Merging the data for train and test data.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 For each signal, the script only extracts the variables for mean() and std() as specified at features_info.txt file.
 3. Uses descriptive activity names to name the activities in the data set according the recomendations about text in the data sets.
